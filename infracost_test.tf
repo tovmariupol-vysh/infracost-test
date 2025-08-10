@@ -1,18 +1,4 @@
-# Test using infracost in CCP
-
-
-## Usage
-URL: https://dashboard.infracost.io
-
-1. Create account
-2. Preapare and send a pull request
-2.1 Open your repo on GitHub
-2.2 Create a new branch called "infracost-test"
-2.3 Create a file called infracost_test.tf in the repo
-
-For example:
-
- provider "google" {
+provider "google" {
   region = "us-central1"
   project = "test"
 }
@@ -57,6 +43,3 @@ resource "google_cloudfunctions_function" "my_function" {
     environment = "Prod"
   }
 }
-
-2.4 Commit the changes and create a pull request by clicking on Contribute and Open pull request
-

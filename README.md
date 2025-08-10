@@ -1,4 +1,4 @@
-# Test using infracost in CCP
+# Test using infracost in GCP
 
 
 ## Usage
